@@ -1,16 +1,13 @@
-// Simple C++ program to display "Hello World" 
-
-// Header file for input output functions 
-#include<iostream> 
+// Header file
+#include<iostream>
+#include <conio.h>
 
 using namespace std; 
 
-// main function - 
-// where the execution of program begins 
 int main() 
 { 
 	// prints hello world 
-	cout<<"Hello World"; 
-	
+	cout<<"Hello World\n"; 
+	getch();
 	return 0; 
 } 
